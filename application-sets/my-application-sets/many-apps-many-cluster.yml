@@ -29,7 +29,7 @@ spec:
         syncOptions:  
         - CreateNamespace=true
       source:
-        repoURL: https://github.com/edaooo/gitops-cert-level-2-examples.git
+        repoURL: https://github.com/codefresh-contrib/gitops-cert-level-2-examples.git
         targetRevision: HEAD
         path: '{{path}}'
       destination:
